@@ -5,6 +5,22 @@ body {
     color: #333;
     line-height: 1.6;
 }
+/* ダークモード時のスタイル */
+.dark-mode {
+    background-color: #333; /* 背景色を暗い色に変更 */
+    color: #fff;           /* テキスト色を明るい色に変更 */
+}
+
+/* コンテナ要素のダークモードスタイル */
+.dark-mode .container {
+    background-color: #444; /* コンテナの背景色を変更 */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* 白っぽい影に変更 */
+}
+
+/* 投稿フッターのテキスト色変更 */
+.dark-mode .post-footer {
+    color: #ccc; /* フッターの文字色をやや明るいグレーに変更 */
+}
 
 .container {
     padding: 20px;
@@ -507,3 +523,4 @@ textarea.form-control {
 .logged-out {
     display: none;
 }
+
